@@ -5,7 +5,7 @@ import datetime
 import os
 
 # Import your custom modules/functions
-from process_commands import process_cdp_neighbors  # Your existing module for CDP processing
+from process_cdp_neighbors import process_cdp_neighbors  # Your existing module for CDP processing
 from process_mac_address_table import process_mac_address_table  # Module for MAC table processing
 
 def run_commands():
